@@ -1,0 +1,55 @@
+Time to perform calculation 1+1, at 2.5MHz bus speed
+6.67572021484375e-06
+
+However will be performing the math in a loop. 
+For 100,000 loop measurements of 1+1 time, the Mean = 1.1983919143676758e-06 and SD = 1.262016945555236e-06
+The SD is even bigger than the mean, large variance in math times for 1+1
+This method takes the time before and after the 1+1 calc within the loop. 
+
+For a sample rate of 28000, the time we want between voltage readings is 1/25000 = 4e-05
+
+If we take the single time of 6.675e-06 we would want roughly 6 loops of 1+1 
+However if we take the average single calc time of 1.198e-06, for 1+1 time we would need 33 loops of that calcuation
+
+In the real readv() code, there won't be internal timings like in the 100,000 readings averaged value loop.
+What may be more accurate therefore is to measure the time before and after the math loop is done to figure out 
+an average time to do n loops and from that get the average time one math calc takes
+
+Do a loop of 1+1 ten times and measure time of that whole loop
+Do that ten calc loop 100,000 times
+Get an array with 100,000 times for how long it takes to do a ten calc loop
+Find the mean
+Mean time to do a 10 calc loop/ 10 gives the average time for a single 1+1 loop
+
+For 100,000 ten calc loops, the mean time for a 10 calc loop is  = 2.775421142578125e-06
+For 100,000 ten calc loops, the 10 calc SD time is               = 1.0204969779079975e-06 
+The SD is less than mean so the 10 calc loop shows less variability in time
+
+The (mean 10 calc loop time)/10 gives average time for a single cacluation = 2.775421142578125e-07   2.6718950271606444e-07  2.746288776397705e-07
+
+If we use this as the single calc time, we expect 4e-5 / 2.77e-07 = 144 loops of 1+1 between each voltage reading
+
+
+
+Now we test out our three different values by implementing them into a readv(100000 samples) and see which gives a 25kHz sample rate 
+
+Using n as the number of calc loops we get m as the actual sample rate
+
+n = 6           m = 27.2k
+n = 30          m = 27k
+n = 144         m = 25.1k 
+
+UPDATE: The maths does not scale, the average time to perform a loop of 100 lots of 1+1 is not 10 times longer than the time for a loop of 10 lots of 1+1
+	It is actually more like 3 times as much.
+	The more maths that needs to be done, the faster the average time for one calculation
+	This means that for the 1+1 calculation there isn't actually a simple 'time for one calcuation'
+
+
+It may be that there are other calculations that do scale, or that instead what needs to be done is to take data for how changing the number of loops
+changes the sample rate and then fit the correlation between the two to find out what loop number is needed for what desired freq
+
+
+Tested a number of different equtions and loops. It seems looping for x to range(): , if you use an equation that is cubic in x you can get the same average time 
+for a single calculation. This was tested with 100,000 lots of loops of 10 compared to 100,000 loops of 100. Each of these give a time per calculation close to 1.2917611598968507e-06
+
+

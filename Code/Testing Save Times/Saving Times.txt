@@ -1,0 +1,93 @@
+Times to save 100,000 samples to pi in seconds
+1.42
+1.32
+1.38
+1.44
+1.24
+1.25
+1.41
+1.24
+1.40
+1.23
+1.40
+
+Mean = 1.33
+SD = 0.08 
+
+
+Saving 100,000 samples to a USB in seconds
+Significantly slower, arounf 1.99 seconds
+
+
+SAMSUNG SD CARD:  
+
+6.8kHz sample rate (seems to be max for two channel read on thi SD card). Sample rate has no bearing on savetimes
+Seems like from conitnuous read, the first batch always takes a bit longer to save but all other batches save at the same speed
+
+When reading fom both channels at the same time, using np.savetxt 
+
+samples per channel per batch      Savetime
+100,000                            1.55
+10,000                             0.15
+5,000                              0.082
+1,000                              0.017
+
+
+
+When reading fom both channels at the same time, using np.save
+
+samples per channel per batch      Savetime
+100,000                            0.014
+50,000                             0.013
+10,000                             0.0055
+1,000                              0.0022
+
+
+Needs to be tested on the SANDISK SD CARD to see if it is even faster on there or not
+The addition of saving to an external SSD drive may also mmake saing quicker
+
+From save every nth point.py, now have functions to read voltages but only add every nth one to a list of voltages and times.
+For example, can read 100,000 points but only record every 10th one - so the batch being saved only contains 10,000 values and saves 
+in 0.003 seconds
+
+
+NOW SAVING TO EXTERNAL SSD
+
+When reading fom both channels at the same time, using np.savetxt 
+
+samples per channel per batch      Savetime
+100,000                            1.88
+10,000                             0.21
+5,000                              0.12
+1,000                              0.027
+
+
+When reading fom both channels at the same time, using np.save
+
+samples per channel per batch      Savetime
+100,000                            0.11
+50,000                             0.053
+10,000                             0.015
+1,000                              0.0042
+
+
+SAVING TO EXTERNAL SSD IS SLOWER :(
+
+
+Saving data as float32 is faster than saving as float64.
+
+
+When reading from both channels at the same time using np.save and converting arrays to float32 from float 64
+
+samples per channel per batch      Savetime
+100,000                            0.008
+
+
+
+
+
+
+
+
+
+
