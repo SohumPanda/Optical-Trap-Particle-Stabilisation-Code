@@ -1,0 +1,15 @@
+We saw some weird glitches in the 100,000 batch readings so decided to test out 1,000,000 batch.
+
+
+9-2-22
+
+On Sohum Pi, reading for 100,000 points had a weird glitch it seemed, where for the first approx 1000 points / 0.1 sec the pi
+was recording a higher voltage. We noticed this first occurred for a batch of 1,000,000 and decided to see if 100,000 had the same thing
+
+We swapped the smaple rate down from 10KhZ to something lower (5.6kHz) and it looked like it had fixed it
+
+We then took a batch2 of 100,000 samples at 10KHz and there was no glitch.
+
+But when we switched back to 1,000,000 samples the glitch appeared again and then also reappeared on a third batch of 100,000 (not saved or plotted but it did)
+
+

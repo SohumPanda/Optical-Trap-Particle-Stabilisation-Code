@@ -1,0 +1,18 @@
+For Statistics such as the standard devation,
+we expect a root N relation.
+
+
+So the Sd for N points should be proportional to 1/rootN of the amount of points taken
+
+So the SD of 100 points should be 1/root(100)= 1/10 x constant
+and th SD for 10,000 should be 1/root(10,000)=1/100 x constant
+
+
+Data taken for lights on, but PSD blocked by a black object.
+Testing the SD relation to N from voltages measured when PSD connected to pi 4 
+
+These values were taken from a single run of N points.
+
+
+For batches of aprox < 500 points, we are not sampling over long enough times and so the swing in the SD of these batches is large. 
+Ranging from 0.05 to 0.002. Over these small timeframes we are probably capturing random glitches in the pi. 

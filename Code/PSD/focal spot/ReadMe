@@ -1,0 +1,5 @@
+We want to move the PSD along z (forwards and backwards along the direction light is coming into PSD)
+and then scan horizontally in x.
+
+At the z of focus, the dot will be smallest on the PSD and the transition when the dot is on the psd to when it is not will bes sharpest
+Away from focus the spot will be larger and there will be a gradual transition of signal as we move the spot off the PSD

@@ -1,0 +1,6 @@
+For the single reads of calcs or for saving batches, we want to see if the SD we are getting for the N points in a batch
+is a good reading that we are comfortable using, or if there is large eror in the measurement of the error.
+
+For N = 100,000 points in a single read, we computed the SD of 10 single reads of N points
+
+  
