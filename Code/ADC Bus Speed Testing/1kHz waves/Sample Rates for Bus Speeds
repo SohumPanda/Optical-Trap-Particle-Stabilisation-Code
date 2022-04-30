@@ -1,0 +1,16 @@
+For an ADC bus speed of 'a' MHz, readv1() samples on average at 'b' kHz
+It seems like you need to run readv1() 4 to 5 times before each run gives conistently the same sample rate
+Wait 10-5 seconds after running file to let, wait for assistant to finish 'analyzing code', and then sample rate 
+becomes more consitant between each run of readv() 
+
+a               b   
+1.6 MHz         23.9 kHz
+1.7 MHz         24.6 kHz
+1.8 MHz         25.0 kHz
+1.9 MHz         25.7 kHz
+2.0 MHz         25.8 kHz
+2.1 MHz         26.2 kHz
+2.2 MHz         26.7 kHz
+2.3 MHz         27.3 kHz
+2.4 MHz         27.5 kHz
+2.5 MHz         28.2 kHz
