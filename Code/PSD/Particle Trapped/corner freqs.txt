@@ -1,0 +1,11 @@
+for each particle, this is what the corner freq is - based off ft of signal from channel 1
+
+h                       165 +/- 5 Hz
+i                       158 +/- 5 Hz                       
+k                       131 +/- 5 Hz
+m                       173 +/- 5 Hz
+n                       157 +/- 5 HZ 
+o                       170 +/- 5 Hz
+v                       130 +/- 5 Hz
+w                       150 +/- 5 Hz
+ab                      151 +/- 5 Hz
