@@ -1,0 +1,19 @@
+Equilibrium = 3.59 mm
+(Vol +/- std)
+The lower the number on the micrometer, the higher we have moved the PSD
+So we expect less light to be incident on channel 1 from the first raise
+and more light to be incident on channel 2
+
+So voltage value on channel 1 should increase and on channel 2 should decrease
+
+
+Micrometer Reading     Channel 1 Vol                 Channel 2 Vol
+
+3.59 mm                1.651716 +/- 0.0025618814     1.6512263 +/- 0.0026946163
+3.09 mm                1.6723425 +/- 0.0021526425    1.6316714 +/- 0.0040665427
+2.59 mm                1.6956428 +/- 0.0008692477    1.6298865 +/- 0.0030652252
+2.09 mm                1.7137074 +/- 0.00041336447   1.6481012 +/- 0.002861036
+1.59 mm                1.7204717 +/- 0.00046090691   1.6992313 +/- 0.00091891026
+1.09 mm 	       1.7207968 +/- 0.00034526602   1.7200434 +/- 0.00049887574
+0.59 mm                1.7215692 +/- 0.0005581048    1.7214606 +/- 0.00054023863
+0.09 mm                1.7216017 +/- 0.00045416123   1.7215033 +/- 0.0004250131 

@@ -1,0 +1,16 @@
+Now we are taking PSD readings for every particle with an incident power of 0.8 micro watts
+We have determined the correct brightness scaling factor for this power
+Depending on particle size we will open or close aperture to deliver 0.8W to the PSD
+
+
+To do feedback control, we need to know what distance change of the C.O.M of the light on 
+the PSD corresponds to what change in the signal value
+
+i.e if the particle goes up from the middle by 1mm, by what value do signals 1 and 2 change
+Therefore when we get signal changes we can back calculate to figure out what distance change they corresponded to 
+
+
+For particle w:
+We have the micrometer vertical reading to be at 3.49 mm. Which should be the middle of the PSD.
+Changing the reading on the micrometer up = moving the PSD down. And vice versa
+The spec sheet says PSD resistive length 3.5mm 

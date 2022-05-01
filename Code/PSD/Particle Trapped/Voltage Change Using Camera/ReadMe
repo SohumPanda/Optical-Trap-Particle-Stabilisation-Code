@@ -1,0 +1,4 @@
+For particle q, we took a movie of the camera of a 2V, 0.5Hz square wave.
+We recorded the PSD values of this and can compare the amount the voltage changs by to 
+the amount the particle moves in the video to get a relation of what the 
+voltage change recorded by the PSD per unit vertical distance the particle moves is

@@ -1,0 +1,13 @@
+For particle q, found height on  micrometer at which particle was in the middle of the PSD.
+
+Particle in middle of PSD when micrometer reading was 3.59 mm.
+
+We will reduce the micrometer reading by 0.5 mm increments down to 0.09 mm
+At each height, we will run read voltages and relabel the batcches according to the height 
+on the micrometer at which the batch was taken
+
+From each batch, we can easily take the average of the voltage value on channel 1 and 2 at the height the batch
+corresponds to 
+
+Particle q data may need to be retaken. The makeshift black cover may have knocked the aperture
+infront of the two focussing lenses, causing some of the scattered light to be blocked. 
