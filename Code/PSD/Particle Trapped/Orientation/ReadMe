@@ -1,0 +1,26 @@
+0-2V square wave from dac. 1/8 Hz (4 seconds at 2V, 4 sec at 0 V)
+
+Movie of particle moving at the same time taken from camera.
+When power is high - particle moves left on recording - means particle moves up in real life
+When power is low - particle moves right on recording - means particle moves down in real life
+
+Purpose of this is to see does what does a higher and lower voltage on channels 1 and 2 correspond 
+to in terms of actual particle motion
+
+
+Particle p:
+
+When particle went up, channel 1 and 2 voltages went up. 
+
+
+
+NOT SURE HOW CORRECT THE ABOVE CONCLUSIONS ARE.
+
+Particle ac     (7 seconds high, seven seconds low, square wave)
+
+The only transition in the batch (batch1) is when the voltage across pockel cell went from +192 to -192. 
+This corresponds to laser power going from low to high
+Which corresponds to particle moving from a low to high positoin. (Moved from below eqiluilibrium to above equilibrium)
+This corresponded to us seeing the voltage across both channels dropping
+
+
