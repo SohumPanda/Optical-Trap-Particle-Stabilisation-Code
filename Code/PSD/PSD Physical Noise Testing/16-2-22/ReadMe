@@ -1,0 +1,3 @@
+For our data which we used to plot the bar chart, we used calcs and didn't therefore save the data from each run.
+Here we are using read voltages to save a batch of best physical conditions
+and worst physical conditions so that we can fourier transform them and show how we have reduced the noise
