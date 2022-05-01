@@ -1,0 +1,38 @@
+particle,approx diameter in microns, micrometer scale height in mm 
+
+particle l fell out before we could take a read_voltages
+take power meter reading infront of psd when lights are off
+These are the sizes in micron as calculated from the CCD camera
+
+
+1 pixel = 0.663 micron approx 
+
+a,8,
+b,7.3,5.28
+c,6.6,5.34
+d,6.6,5.33
+e, not used, na
+f,7.6, fell out before could measure
+g,4.6, fell out before could measure
+h,9.9,5.37                                     h --- Power infront of PSD 0.6 micro W
+i,11.9,5.39
+j,12.6,5.50                                     
+k,8.0,5.52                                     k --- Power infront of PSD 0.7 micro W   
+l,13.9,5.45                                     
+m,13.9,5.65                                    m --- Power infront of PSD 1.0 micro W
+n,11.3,5.65                                    n --- Power infront of PSD 0.9 micro W
+o,12.6,4.72                                     
+p,6.0,4.63                                     p --- Power infront of PSD 0.4 micro W
+q,7.3,4.63                                     q --- Power infront of PSD 0.2 micro W (seems anomalous)(aperture may have moved)
+r,6.6,4.55                                      
+s,13.9,4.61                                    s --- Power infront of PSD 0.8 micro W (readjusted aperture)
+t,12.6,4.72                                    t --- Power infront of PSD 0.7 micro W
+u,12.6,4.71                                    u --- Power infront of PSD 0.7 micro W
+v,6.6,4.75                                     v --- Power infront of PSD 0.3 micro W
+w,9.95,4.49
+x,9.95,4.66
+y,15.9,4.70
+z,9.9,4.68
+aa,11.9,4.69        
+ab,11.9,4.78
+ac,10.6,4.57                          

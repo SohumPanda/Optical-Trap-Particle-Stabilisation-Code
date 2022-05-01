@@ -1,0 +1,31 @@
+CAMERA vs CALCULATED FROM FRINGE SPACING   all sizes in micron 
+
+a     8.0,   N/A      
+b     7.3,   8.35
+c     6.6,   9.63
+d     6.6,   6.35
+e     N/A,   N/A
+f     7.6,   N/A
+g     4.6,   N/A
+h     9.9,   10.3
+i     11.9,  14.6
+j     12.6,  N/A
+k     8.0,   8.04
+l     4.6,   N/A
+m     13.9
+n     11.3
+o     12.6
+p     6.0   
+q     7.3
+r     6.6
+s     13.9
+t     12.6
+u     12.6
+v     6.6
+w     9.95
+x     9.95
+y     15.9
+z     9.9
+aa    11.9        
+ab    11.9
+ac    10.6 

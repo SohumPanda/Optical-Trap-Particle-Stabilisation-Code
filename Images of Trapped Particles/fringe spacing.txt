@@ -1,0 +1,136 @@
+By Using imageJ, convert image to 32 bit greyscale
+Draw a line over the ruler or graph paper
+Analyze --> Set Scale, enter in that distance in mm and type in that the units are in mm
+
+Particle a - unused(no scale to set in the picture)
+
+Particle b
+3.44 -> 15.48   Dist Between 4 fringe peaks
+Distance = 12.04 +/- 0.5 mm
+Peak to peak distance ~ 4.01 +/- 0.17 mm 
+ 
+
+Particle c
+1.28 -> 18.67   Dist Between 6 fringe peaks
+Distance = 17.39 +/- 0.5
+Peak to peak distance ~ 3.48 +/- 0.10 mm 
+
+
+Particle d
+5.35 -> 21.20   Dist Between 4 fringe peaks
+Distance = 15.58 +/- 0.5
+Peak to peak distance ~  5.28 +/- 0.17 mm 
+
+Particle e - unused
+
+Particle f and g - two trapped at once so unused
+
+Particle h - implement graph paper as scaling
+2.86 -> 12.60   Dist Between 4 fringe peaks
+Distance = 9.74 +/- 0.5 mm
+Peak to Peak Dist ~ 3.25 +/- 0.17 mm 
+
+Particle i - implement graph paper as scaling
+0.85 -> 10.02   Dist Between 5 fringe peaks
+Distance = 9.17 +/- 0.5
+Peak to Peak Dist ~ 2.29 +/- 0.13 mm 
+
+Particle j - unused, no fringe pictur taken
+
+Particle k - implement graph paper as scaling
+3.53 -> 16.25   Dist Between 4 fringe peaks
+Distance = 12.72 +/- 0.5 mm
+Peak to Peak Dist ~ 4.24 +/- 0.17 mm 
+
+Particle l - implement graph paper as scaling 
+4.77 -> 22.20   Dist Between 8 fringe peaks
+Distance = 17.43 +/- 0.5 mm
+Peak to Peak Dist ~ 2.49 +/- 0.07 mm
+
+Particle m - implement graph paper as scaling
+2.35 -> 11.85   Dist Between 5 fringe peaks
+Distance = 9.5 +/- 0.5 mm
+Peak to Peak Dist ~ 2.38 +/- 0.13 mm 
+
+Particle n - implement graph paper as scaling
+3.34 -> 10.03   Dist Between 3 fringe peaks
+Distance =  6.69 +/- 0.5 mm
+Peak to Peak Dist ~ 3.35 +/- 0.25 mm 
+
+Particle o - implement graph paper as scaling
+4.88 -> 15.51   Dist Between 5 fringe peaks
+Distance = 10.63 +/- 0.5 mm
+Peak to Peak Dist ~ 2.66 +/- 0.13 mm
+
+Particle q - implement graph paper as scaling
+3.97 -> 13.82   Dist Between 3 fringe peaks
+Distance = 9.85 +/- 0.5 mm
+Peak to Peak Dist ~ 4.93 +/- 0.25 mm
+
+Particle r - implement graph paper as scaling
+2.31 -> 15.64   Dist Between 4 fringe peaks
+Distance = 13.33 +/- 0.5 mm
+Peak to Peak Dist ~ 4.44 +/- 0.17 mm
+
+Particle s - implement graph paper as scaling
+1.93 -> 9.54   Dist Between 4 fringe peaks
+Distance = 7.61 +/- 0.5 mm
+Peak to Peak Dist ~ 2.54 +/- 0.17 mm
+
+Particle t - implement graph paper as scaling
+1.05 -> 10.05  Dist Between 5 fringe peaks
+Distance = 9.00 +/- 0.5 mm
+Peak to Peak Dist ~ 2.25 +/- 0.13 mm
+
+Particle u - implement graph paper as scaling
+0.79 -> 7.77   Dist Between 4 fringe peaks
+Distance = 6.98 +/- 0.5 mm
+Peak to Peak Dist ~ 2.32 +/- 0.17 mm
+
+Particle v - implement graph paper as scaling
+4.73 -> 12.84   Dist Between 3 fringe peaks
+Distance = 8.11 +/- 0.5 mm
+Peak to Peak Dist ~ 4.06 +/- 0.25 mm
+
+Particle w - implement graph paper as scaling
+1.95 -> 11.0   Dist Between 4 fringe peaks
+Distance = 9.05 +/- 0.5 mm
+Peak to Peak Dist ~ 3.02 +/- 0.17 mm
+
+Particle x - implement graph paper as scaling
+2.95 -> 13.33   Dist Between 5 fringe peaks
+Distance = 10.38 +/- 0.5 mm
+Peak to Peak Dist ~ 2.60 +/- 0.13 mm
+
+Particle y - implement graph paper as scaling
+0.73 -> 13.90   Dist Between 8 fringe peaks
+Distance = 13.17 +/- 0.5 mm
+Peak to Peak Dist ~ 1.88 +/- 0.07 mm
+
+Particle z - unused fringes not clearly visible in pic
+
+Particle aa - implement graph paper as scaling
+1.51 -> 6.99   Dist Between 4 fringe peaks
+Distance = 5.48 +/- 0.5 mm
+Peak to Peak Dist ~ 1.82 +/- 0.17 mm
+
+Particle ab - implement graph paper as scaling
+1.95 -> 8.26   Dist Between 4 fringe peaks
+Distance = 6.31 +/- 0.5 mm
+Peak to Peak Dist ~ 2.10 +/- 0.17 mm
+
+Particle ac - not used, no picture of fringes taken
+
+
+
+
+
+
+
+
+
+
+
+
+
+

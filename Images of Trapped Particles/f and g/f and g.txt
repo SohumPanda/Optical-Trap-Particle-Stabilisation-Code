@@ -1,0 +1,7 @@
+not sure if one particle trapped or if 2. Looks like the two scatter points are moving a bit independently from eachother.
+
+After reducing the exposure time, we can see that we actually have trapped 2 particles!
+
+Label the larger one as particle f and the smaller one as particle g
+
+
