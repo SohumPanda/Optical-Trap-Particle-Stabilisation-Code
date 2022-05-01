@@ -1,0 +1,125 @@
+Instead of finding non linearity of PSD at different brightnesses, we will adjust
+the aperture so that for each particle 0.8W of light is incident on the PSD
+
+We can then use the scale factor to make both channels the same value for an incident
+power of 0.8W for every particle w do measurements of.
+
+However we will still take the data at differing powers from 0.1W in increments of 0.1 up to 0.8 W
+to find the relationship of the scaling factor with power
+
+Take 5 batches 0f 100,000. 
+Find the mean value of v1 and v2
+Find the scaling factor to multiply channel 2 by for each batch
+Take the average scaling factor value over the 5 batches
+
+Done for particle v - 6.6 micron diameter
+
+Batch Scaling factor - 0.8W (OLD)
+1- 1.0489826
+2- 1.0507176
+3- 1.0504193
+4- 1.0483487
+5- 1.0492499
+Average scaling factor at a power of 0.8W = 1.04954362 +/- 0.0008915035824941993
+
+Batch Scaling factor - 0.7W (OLD)
+1- 1.0396181
+2- 1.0389662
+3- 1.0398172
+4- 1.0405949
+5- 1.0403665
+Average scaling factor at a power of 0.7W = 1.03987258 +/- 0.000575335531320672
+
+Batch Scaling factor - 0.6W (OLD) *potentially was a bit closer to 0.7 than 0.6
+1- 1.0347693
+2- 1.0347378
+3- 1.0345224
+4- 1.0346626
+5- 1.034739
+Average scaling factor at a power of 0.6W = 1.03468622 +/- 0.00008915537897403988
+
+Batch Scaling factor - 0.5W
+1- 1.0353645
+2- 1.0353686
+3- 1.0352012
+4- 1.0352166
+5- 1.0353116
+Average scaling factor at a power of 0.5W = 1.0352925 +/- 0.00007132533911591958
+
+Batch Scaling factor - 0.4W
+1- 1.033301
+2- 1.0332448
+3- 1.0331451
+4- 1.0332096
+5- 1.0331358
+Average scaling factor at a power of 0.4W = 1.03320726 +/- 0.00006192303610129948
+
+Batch Scaling factor - 0.3W
+1- 1.0318211
+2- 1.0317327
+3- 1.0316362
+4- 1.0315881
+5- 1.0315584
+Average scaling factor at a power of 0.3W = 1.0316673 +/- 0.00009698521536811286
+
+Batch Scaling factor - 0.2W
+1- 1.0327184
+2- 1.032629
+3- 1.0326225
+4- 1.032629
+5- 1.0327184
+Average scaling factor at a power of 0.2W = 1.03266338 +/- 0.00004482340460073106
+
+Batch Scaling factor - 0.1W
+1- 1.0314772
+2- 1.0314115
+3- 1.0314238
+4- 1.0315586
+5- 1.0315752
+Average scaling factor at a power of 0.1W = 1.03148926 +/- 0.0000673361596766964
+
+Batch Scaling factor - 0W
+1- 1.0294178
+2- 1.0294212
+3- 1.029431
+4- 1.0294411
+5- 1.0294533
+Average scaling factor at a power of 0W = 1.02943288 +/- 0.0000130530302994792
+
+
+TOOK 0.9 ,0.8 ,0.7 and 0.6W afterwards, got different results - (slightly better)
+
+Batch Scaling factor - 0.9W 
+1- 1.0353628
+2- 1.0359939
+3- 1.0353547
+4- 1.0354661
+5- 1.0366234
+Average scaling factor at a power of 0.9W = 1.03576018 +/- 0.0004916465698039863
+
+Batch Scaling factor - 0.8W 
+1- 1.0370212
+2- 1.0378934
+3- 1.0385041
+4- 1.0378389
+5- 1.0376284
+Average scaling factor at a power of 0.8W = 1.0377772 +/- 0.0004773615778421518
+
+Batch Scaling factor - 0.7W  
+1- 1.0324564
+2- 1.0333669
+3- 1.0336714
+4- 1.0342507
+5- 1.0351208
+Average scaling factor at a power of 0.7W = 1.03377324 +/- 0.0008892060697048838
+
+Batch Scaling factor - 0.6W
+1- 1.0330571
+2- 1.0330713
+3- 1.0326661
+4- 1.0325333
+5- 1.032379
+Average scaling factor at a power of 0.6W = 1.03274136 +/- 0.00027885836978652924
+
+
+
