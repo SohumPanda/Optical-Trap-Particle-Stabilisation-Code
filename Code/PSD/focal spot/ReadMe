@@ -3,3 +3,18 @@ and then scan horizontally in x.
 
 At the z of focus, the dot will be smallest on the PSD and the transition when the dot is on the psd to when it is not will bes sharpest
 Away from focus the spot will be larger and there will be a gradual transition of signal as we move the spot off the PSD
+
+Measurement 1:
+
+0.07 mm = 623 pixels
+0.11236 microns = 1 pixel
+
+Beam waist measured to be 37 pixels, therefore ~ 4.16 microns
+
+
+Measurement 2:
+
+0.06 mm = 593 pixels
+0.101 microns = 1 pixel
+
+Beam waist measured to be 35 pixels, therefore ~ 3.54 microns
