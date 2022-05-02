@@ -1,0 +1,56 @@
+Open Loop Control System and Closed Loop
+
+OPEN:
+Use the signal generator to generate a low frequency square wave whilst particle is trapped
+Or use DAC to generate signal
+
+CLOSED:
+Use the DAC to generate square wave - based on ADC calculations
+
+Read the particle position on the PSD.
+Fourier Transform the data to see if we can recover the frequemcy that we injected in.
+
+
+Particle n: OPEN LOOP - SIG GEN
+
+Signal: 1.8V peak to peak, square wave, 0.5 Hz
+
+
+Particle o: OPEN LOOP - DAC
+
+Signal: 2V peak to peak, square wave, 0.5Hz
+
+
+Particle p: OPEN LOOP - DAC
+
+1. Signal: is 2V peak to peak, sine wave, 250Hz    -  Gauss fit gives 245.8908 +/- std dev 2.35
+2. Signal: is 2V peak to peak, sine wave, 55Hz     -  Gauss fit gives 56.1845 +/- std dev 0.63
+
+
+Particle q: OPEN LOOP - DAC
+
+Signal: 2V peak to peak, sine wave, 52 Hz
+
+
+Particle w: OPEN LOOP - SIG GEN 
+Signal is much better defined when we have a sig gen. So use sig gen
+for testing the offset of inputted freqs due to damping of particle in air
+
+1. 2V peak to peak, sine wave, 60Hz
+2. 2V peak to peak, sine wave, 70Hz
+3. 2V peak to peak, sine wave, 80Hz
+4. 2V peak to peak, sine wave, 90Hz
+5. 2V peak to peak, sine wave, 100Hz
+
+6. 2V peak to peak, square wave 0.5 Hz
+
+
+WITH PARTICLE Z MEASURED AND FOUND NEW RELATION FOR BRIGHTNESS SCALING FACTOR
+
+
+
+
+Graphs that end with DAC in the filename indicate the modulating signal come from 
+the DAC on the pi. Hence closed loop system
+
+
