@@ -1,0 +1,4 @@
+Data taken directly from Oscilloscope of the AC components of the laser power at a range of laser powers. TN refers to a 'toaster number' which is the 
+number that was displayed on the dial to increase the power of the laser. 
+
+Code used to fourier transform the AC component of the laser noise to compare the amplitude of the significant frequencies at different laser powers
