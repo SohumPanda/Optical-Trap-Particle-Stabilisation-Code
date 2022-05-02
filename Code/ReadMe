@@ -1,0 +1,33 @@
+read voltages.py is the main file. 
+It contains the functions to be able to read the data from a single or both channels at the maximum possible sample rate.
+To read the voltages from a single or both channels with the capability of adjusting the sample rate
+The feedback function that can read voltages, and adjust the pockel cell voltage through te DAC
+Loop functions to be able to take multiple batches of N=100,000 V and save them
+
+As well it contains code to be able to alter the pockel cell voltage through the DAC with either 
+a square wave or an adjustable frequency sine wave
+
+To send a sine or square wave from the DAC and sample the signal recieved from a trapped particle that 
+is responding to that signal, threading is needed to both continuously sample and send a signal making 
+use of both the DAC and ADC
+
+calcs.py is a useful file for helping to align the PSD to the centre of the Particle
+It contains code that doesnt save any data but can give you the voltage reading in real time
+It can also give you the mean and standard deviation of N points and loop that continuously
+
+moving av.py constains the code to be able to calculate the moving average of N points
+
+fitting moving ave.py extends on te code in moving av.py by adding the ability to fit the 
+N most recent points to find out if the gradient is positive or negative, and send the appropriate 
+output voltage from the DAC to counteract the particle motion
+
+feedback function.py combines the function that can read both voltages simultaneously (readvbothsr) with the 
+function in fitting moving ave.py to create a overall feedback function called feedback() that can 
+sample from both channels, save the data and also calculate the particle motion and send a DAC voltage to counteract 
+it.
+
+position.py contains the code to convert the voltages from channel 1 and channel 2 into the actual position 
+of the particle, taking into account the magnification of the imaging system.
+
+saved data plotting.py contains a file to quickly plot the voltage against time for any batch of saved data 
+if we want to confirm or double check readings by looking at them graphically
