@@ -1,0 +1,5 @@
+Code to plot relation between power of trapping laser from a spot of light produced behind the optical rail, compared to the power when a power meter is placed 
+directly in the path of the laser as it fires up through the trapping system.
+
+This will enable us to measure the trapping laser power whilst a particle is trapped, as now there is no need to place the power meter in the direct path of the 
+trapping beam, which will block out the light from reaching the particle and cause it to fall out of the trap
