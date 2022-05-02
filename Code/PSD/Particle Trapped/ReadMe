@@ -1,1 +1,12 @@
-For trapped particles, turn off lights and take 10 batch reading
+For trapped particles, turn off lights and take 10 batch reading.
+
+Each particle folder contains saved batches of data from that particle and plots of the fourier spectrum of that data and the voltage against time 
+for that data
+
+Trapped Particles Fourier Transform.py contains the code for calculating the position of the particles from their saved data and being able to fourier transform 
+their spectrums. It can produce a voltage against time plot for a given batch of saved data for a particle, a plot of position against time, a comparison of the 
+fourier spectrum of the particle to the PSD noise spectrum and a Fourier transform of the position against time graph.
+
+spring constant and corner freq.py can plot the relationship between the corner frequencies of the fourier spectrum of particles against their size.
+It can also calculate the trap strength constant (kappa) and plot that against the particle's sizes.
+
