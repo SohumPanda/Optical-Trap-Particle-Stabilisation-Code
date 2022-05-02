@@ -1,0 +1,4 @@
+File to numerically create a perfect sine wave function, and functions created of equal or random contributions of perfect sine waves from 
+0-20 kHz, so that the Fourier transform code that we use to find the power spectrum of trapped particles can be tested. This is because a weird feauture 
+was seen at 10-14 kHz on the power spectrum and we want to investigate if it is due to the code not being properly transform those frequencies 
+or if it is due to some phsyical effect.
