@@ -1,0 +1,4 @@
+Code to plot the variation of delivered laser power vs the polariser angle.
+
+At polariser angles from 60 to 120 degrees, the pockel cell voltage was adjusted from -190 to 190 V to see hoe much the delivered
+power was changed at each angle
