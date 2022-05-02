@@ -1,0 +1,8 @@
+testing eqns.py file to test what kind of maths equation to put inbetween each sample loop to give a nice 
+linear relationship between number of times to perform loop to number time that takes.
+
+What we found was that there weren't any simple functions we could perform where looping them N times scaled the time taken to do 
+that loop linearly.
+
+Instead, fit for math to samplerate.py was used to find a fit relation between how many times to perform a loop of the very simple 1+1 calculation 
+to how slow it makes the sample rate
