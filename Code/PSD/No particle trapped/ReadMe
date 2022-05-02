@@ -1,0 +1,8 @@
+1/root N stats dependence folder has code and data for the standard deviation measured of batches of sampled data showing hoe the SD decreases proportionally 
+to 1/root(N) as you increase N. Where N is the number of points you are sampling.
+
+Stats of the SD show the distriubtion of the Standard deviations calculated from multiple runs of 100,000 points to see if they vary or are close together.
+
+The other 4 folders have data sampled from the PSD under the conditions of the folder title, and the graphs of the Fourier transforms of the data. 
+
+PSD Light Conditions Fourier Transform.py was used to produce those graphs
